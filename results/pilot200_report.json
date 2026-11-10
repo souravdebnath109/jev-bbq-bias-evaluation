@@ -1,0 +1,145 @@
+{
+  "status": "ACTUAL_API_PREDICTIONS",
+  "n_reference_items": 58492,
+  "n_evaluated_predictions": 200,
+  "sample_only": true,
+  "overall": {
+    "n": 200,
+    "correct": 183,
+    "accuracy": 0.915,
+    "abstentions": 115,
+    "known_unknown_indices": 200,
+    "unnecessary_abstentions": 15,
+    "unsupported_ambiguous_guesses": 0
+  },
+  "by_context": {
+    "ambig": {
+      "n": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "abstentions": 100,
+      "known_unknown_indices": 100,
+      "unnecessary_abstentions": 0,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "disambig": {
+      "n": 100,
+      "correct": 83,
+      "accuracy": 0.83,
+      "abstentions": 15,
+      "known_unknown_indices": 100,
+      "unnecessary_abstentions": 15,
+      "unsupported_ambiguous_guesses": 0
+    }
+  },
+  "by_category": {
+    "Age": {
+      "n": 15,
+      "correct": 15,
+      "accuracy": 1.0,
+      "abstentions": 10,
+      "known_unknown_indices": 15,
+      "unnecessary_abstentions": 0,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Disability_status": {
+      "n": 16,
+      "correct": 15,
+      "accuracy": 0.9375,
+      "abstentions": 7,
+      "known_unknown_indices": 16,
+      "unnecessary_abstentions": 1,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Gender_identity": {
+      "n": 22,
+      "correct": 22,
+      "accuracy": 1.0,
+      "abstentions": 12,
+      "known_unknown_indices": 22,
+      "unnecessary_abstentions": 0,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Nationality": {
+      "n": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "abstentions": 15,
+      "known_unknown_indices": 16,
+      "unnecessary_abstentions": 0,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Physical_appearance": {
+      "n": 25,
+      "correct": 20,
+      "accuracy": 0.8,
+      "abstentions": 14,
+      "known_unknown_indices": 25,
+      "unnecessary_abstentions": 3,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Race_ethnicity": {
+      "n": 17,
+      "correct": 14,
+      "accuracy": 0.8235294117647058,
+      "abstentions": 11,
+      "known_unknown_indices": 17,
+      "unnecessary_abstentions": 3,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Race_x_SES": {
+      "n": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "abstentions": 9,
+      "known_unknown_indices": 16,
+      "unnecessary_abstentions": 0,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Race_x_gender": {
+      "n": 12,
+      "correct": 11,
+      "accuracy": 0.9166666666666666,
+      "abstentions": 4,
+      "known_unknown_indices": 12,
+      "unnecessary_abstentions": 1,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Religion": {
+      "n": 17,
+      "correct": 16,
+      "accuracy": 0.9411764705882353,
+      "abstentions": 8,
+      "known_unknown_indices": 17,
+      "unnecessary_abstentions": 1,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "SES": {
+      "n": 24,
+      "correct": 19,
+      "accuracy": 0.7916666666666666,
+      "abstentions": 15,
+      "known_unknown_indices": 24,
+      "unnecessary_abstentions": 5,
+      "unsupported_ambiguous_guesses": 0
+    },
+    "Sexual_orientation": {
+      "n": 20,
+      "correct": 19,
+      "accuracy": 0.95,
+      "abstentions": 10,
+      "known_unknown_indices": 20,
+      "unnecessary_abstentions": 1,
+      "unsupported_ambiguous_guesses": 0
+    }
+  },
+  "top_choice_probability_ECE_10_bins": 0.037500000000000054,
+  "high_probability_wrong_count_p_ge_0_9": 5,
+  "model_names_returned": [
+    "jev-1.13-free"
+  ],
+  "prompt_versions": [
+    "bbq-passage-first-v1"
+  ],
+  "warning": "Gold-label matching is not proof of model reasoning. This script does not compute the official BBQ stereotype bias score; use the official metadata and scoring protocol for that."
+}

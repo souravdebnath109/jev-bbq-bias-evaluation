@@ -1,0 +1,6 @@
+{
+  "paired_questions": 49,
+  "changed_answers": 1,
+  "answer_flip_rate": 0.02040816326530612,
+  "note": "Different calls may vary stochastically; repeat a fixed order to distinguish nondeterminism."
+}
